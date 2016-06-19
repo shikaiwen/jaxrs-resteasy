@@ -7,6 +7,12 @@ import javax.ws.rs.container.ContainerRequestFilter;
 import javax.ws.rs.core.Response.ResponseBuilder;
 import javax.ws.rs.ext.Provider;
 
+
+/**
+ * http://stackoverflow.com/questions/26777083/best-practice-for-rest-token-based-authentication-with-jax-rs-and-jersey
+ * @author root
+ *
+ */
 @Provider
 public class MyContainerFilter implements ContainerRequestFilter{
 
